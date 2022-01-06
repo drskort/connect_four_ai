@@ -140,7 +140,7 @@ function App() {
     const [values, setValues] = useState(Array.from(Array(NUMBER_OF_ROWS), () => Array.from(Array(NUMBER_OF_COLUMNS), () => 0)));
     const [turn, setTurn] = useState(0);
     const [gameState, setGameState] = useState(GAME_IN_PROGRESS);
-
+    document.title = "Connect Four AI";
     return (
         <div className="App">
             <h1>Connect Four AI</h1>
